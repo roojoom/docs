@@ -1,10 +1,12 @@
 Roojoom Conversion pixel
 ===================
+Roojoom conversion pixel enables you to track and enhance your analytics, by combining conversion tracking into the overall data that roojoom uses for its optimization.
 
-Add the pixel to your website:
 
 Installation
 -------------
+
+Add the pixel to your website:
 
 1. paste the code:
 	```

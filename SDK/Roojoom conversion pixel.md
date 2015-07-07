@@ -6,7 +6,7 @@ Roojoom conversion pixel enables you to track and enhance your analytics, by com
 Installation
 -------------
 
-Add the pixel to your website:
+Add the pixel to your website: 
 
 1. Place the following code between ```<head> </head>``` tags in the HTML source of the page that you want to track conversions on:
 	```

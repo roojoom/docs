@@ -8,7 +8,7 @@ Installation
 
 Add the pixel to your website:
 
-1. paste the code:
+1. Place the following code between ```<head> </head>``` tags in the HTML source of the page that you want to track conversions on:
 	```
 	<script type="text/javascript">
 	var _rjpxl = window._rjpxl || [];
@@ -25,16 +25,15 @@ Add the pixel to your website:
 	</script>
 	```
 
-2. Replace the ```<site_id>``` with the site id provided by roojoom team
+2. Replace the ```<site_id>``` with your specific site id provided by roojoom team
 	> Contact us at [support@roojoom.com](support@roojoom.com) if you don't have your site ID yet
 
 3. Replace the ```<goal_name>``` with a name you can easily track and distinguish
     > **Note:**  
     > - Goal name must start with a letter
-    > - The rest can contain any letters or numbers 
-    > - Spaces are not allowed, you can separate words using '_ '    
+    > - The rest of the name can contain any combination of letters or numbers 
+    > - Spaces are not allowed, you can separate words using '_'    
     
-4. *optional: set the value for conversion by replacing `<value>` with a number or remove `, 'value': <value>` entirely 
+4. *optional: set the value for conversion by replacing `<value>` with a number 
 
-6. Place your code between ```<head> </head>```
- tags in the code of the page that you want track conversions on
+

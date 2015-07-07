@@ -1,0 +1,38 @@
+Roojoom Conversion pixel
+===================
+
+Add the pixel to your website:
+
+Installation
+-------------
+
+1. paste the code:
+	```
+	<script type="text/javascript">
+	var _rjpxl = window._rjpxl || [];
+	_rjpxl.push({'action': 'conversion', 'name': '<goal_name>'[, 'value': <value>]});
+	
+	   (function() {
+	      	var site_id = <site_id>;
+	var rjpx = document.createElement('script');
+	rjpx.async = true;
+	rjpx.src = '//sdk.roojoom.com/jssdk/rjpixel-' + site_id + '.js';
+	var script = document.getElementsByTagName('script')[0];
+	script.parentNode.insertBefore(rjpx, script);
+	   })();
+	</script>
+	```
+
+2. Replace the ```<site_id>``` with the site id provided by roojoom team
+	> Contact us at [support@roojoom.com](support@roojoom.com) if you don't have your site ID yet
+
+3. Replace the ```<goal_name>``` with a name you can easily track and distinguish
+    > **Note:**  
+    > - Goal name must start with a letter
+    > - The rest can contain any letters or numbers 
+    > - Spaces are not allowed, you can separate words using '_ '    
+    
+4. *optional: set the value for conversion by replacing `<value>` with a number or remove `, 'value': <value>` entirely 
+
+6. Place your code between ```<head> </head>```
+ tags in the code of the page that you want track conversions on

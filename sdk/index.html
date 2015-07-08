@@ -1,1 +1,42 @@
-My Page
+<h1 id="roojoom-conversion-pixel">Roojoom Conversion pixel</h1>
+
+<p>Roojoom conversion pixel enables you to track and enhance your analytics, by combining conversion tracking into the overall data that roojoom uses for its optimization.</p>
+
+
+
+<h2 id="installation">Installation</h2>
+
+<p>Add the pixel to your website: </p>
+
+<ol>
+<li><p>Place the following code between <code>&lt;head&gt; &lt;/head&gt;</code> tags in the HTML source of the page that you want to track conversions on:</p>
+
+<pre class="prettyprint"><code class=" hljs coffeescript">&lt;script type=<span class="hljs-string">"text/javascript"</span>&gt;
+<span class="hljs-reserved">var</span> _rjpxl = <span class="hljs-built_in">window</span>._rjpxl || [];
+_rjpxl.push({<span class="hljs-string">'action'</span>: <span class="hljs-string">'conversion'</span>, <span class="hljs-string">'name'</span>: <span class="hljs-string">'&lt;goal_name&gt;'</span>[, <span class="hljs-string">'value'</span>: &lt;value&gt;]});
+
+   (<span class="hljs-reserved">function</span>() {
+        <span class="hljs-reserved">var</span> site_id = &lt;site_id&gt;;
+<span class="hljs-reserved">var</span> rjpx = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'script'</span>);
+rjpx.async = <span class="hljs-literal">true</span>;
+rjpx.src = <span class="hljs-string">'//sdk.roojoom.com/jssdk/rjpixel-'</span> + site_id + <span class="hljs-string">'.js'</span>;
+<span class="hljs-reserved">var</span> script = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">'script'</span>)[<span class="hljs-number">0</span>];
+script.parentNode.insertBefore(rjpx, script);
+   })();
+&lt;/script&gt;</code></pre></li>
+<li><p>Replace the <code>&lt;site_id&gt;</code> with your specific site id provided by roojoom team</p>
+
+<blockquote>
+  <p>Contact us at <a href="support@roojoom.com">support@roojoom.com</a> if you don’t have your site ID yet</p>
+</blockquote></li>
+<li><p>Replace the <code>&lt;goal_name&gt;</code> with a name you can easily track and distinguish</p>
+
+<blockquote>
+  <p><strong>Note:</strong>  </p>
+  
+  <ul><li>Goal name must start with a letter</li>
+  <li>The rest of the name can contain any combination of letters or numbers </li>
+  <li>Spaces are not allowed, you can separate words using ‘_’    </li></ul>
+</blockquote></li>
+<li><p>*optional: set the value for conversion by replacing <code>&lt;value&gt;</code> with a number </p></li>
+</ol>

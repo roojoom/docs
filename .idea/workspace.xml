@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1fda455-a239-43ef-8e2a-0990e00a5d56" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SDK/index.htm" afterPath="$PROJECT_DIR$/roojoom_tracking_pixel.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SDK/roojoom-conversion-pixel.md" afterPath="$PROJECT_DIR$/SDK_md/roojoom-conversion-pixel.md" />
     </list>
     <ignored path="docs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +37,8 @@
       <file leaf-file-name="roojoom_tracking_pixel.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/roojoom_tracking_pixel.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8845209">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -140,7 +140,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SDK" />
+              <option name="myItemId" value="SDK_md" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -456,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/roojoom_tracking_pixel.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8845209">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding />
         </state>
       </provider>

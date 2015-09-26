@@ -84,3 +84,12 @@
 
   </body>
 </html>
+
+<script>
+    var rjUserData = {
+        "lastUpdate": window.rjLastUpdate,
+        "apiToken": window.rjApiToken
+    }
+
+    message.source.postMessage("rjUserData=" + json.stringify(rjUserData), '*');
+</script>

@@ -52,13 +52,19 @@
 <li>
 <p>Place the following code before the <code>&lt;body&gt;</code> tag in your page's HTML source code:</p>
 
-<p><code>&lt;script type="text/javascript"&gt;
-var rj_site_id = &lt;site_id&gt;;
-(function(){if(!document.getElementById('rjSDKScript')){var a=[];var b=document.createElement('script');
-b.id='rjSDKScript';b.async=true;b.type='text/javascript';b.charset='UTF-8';b.src='//sdk.roojoom.com/jssdk/' + rj_site_id + '.js';
-document.body.appendChild(b);}
-})();
-&lt;/script&gt;</code></p>
+
+<pre><code>&lt;script type="text/javascript"&gt;
+    var site_id = '&lt;site_id&gt;';
+
+    (function(){if(!document.getElementById('rjSDKScript'))
+    {var a=[];var b=document.createElement('script');
+    b.id='rjSDKScript';b.async=true;b.type='text/javascript';
+    b.charset='UTF-8';b.src='//sdk.roojoom.com/jssdk/' + rj_site_id + '.js';
+    document.body.appendChild(b);}
+    })();
+&lt;/script&gt;
+</code></pre>
+
 </li>
 <li>
 <p>Replace the  with your specific site id provided by roojoom team</p>

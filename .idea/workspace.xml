@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1fda455-a239-43ef-8e2a-0990e00a5d56" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdk/roojoom_ga_plugin/index.html" afterPath="$PROJECT_DIR$/sdk/roojoom_ga_plugin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdk/install/index.html" afterPath="$PROJECT_DIR$/sdk/install/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="docs.iws" />
@@ -45,34 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sdk/install/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="roojoom-ga-plugin.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SDK_md/roojoom-ga-plugin.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sdk/roojoom_ga_plugin/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5821727">
-              <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.33246073">
+              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -110,11 +87,11 @@
         <option value="$PROJECT_DIR$/sdk/api/open_cj_on_page_load/index.html" />
         <option value="$PROJECT_DIR$/SDK_md/roojoom-conversion-pixel.md" />
         <option value="$PROJECT_DIR$/sdk/ga_plugin/index.html" />
-        <option value="$PROJECT_DIR$/sdk/install/index.html" />
         <option value="$PROJECT_DIR$/SDK_md/cj_ga_plugin.md" />
         <option value="$PROJECT_DIR$/SDK_md/roojoom-ga-plugin.html" />
         <option value="$PROJECT_DIR$/SDK_md/roojoom-ga-plugin.md" />
         <option value="$PROJECT_DIR$/sdk/roojoom_ga_plugin/index.html" />
+        <option value="$PROJECT_DIR$/sdk/install/index.html" />
       </list>
     </option>
   </component>
@@ -153,6 +130,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -269,7 +247,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -661,7 +638,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444934808206</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Link fix in ga plugin docs">
+      <created>1445157960039</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1445157960039</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -677,7 +660,7 @@
     <frame x="0" y="23" width="1440" height="798" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30615166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3104435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844576" sideWeight="0.5286123" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -721,7 +704,8 @@
     <MESSAGE value="plugin require" />
     <MESSAGE value="plugin typoes" />
     <MESSAGE value="Setup GA cd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup GA cd" />
+    <MESSAGE value="Link fix in ga plugin docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Link fix in ga plugin docs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -753,21 +737,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SDK_md/roojoom-ga-plugin.md">
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
-          <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sdk/roojoom_ga_plugin/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="103" column="65" selection-start-line="103" selection-start-column="65" selection-end-line="103" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,13 +778,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SDK_md/roojoom-conversion-pixel.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="24" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="24" />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sdk/conversion_pixel/index.html">
@@ -838,13 +820,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SDK_md/roojoom-conversion-pixel.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="24" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="24" />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sdk/conversion_pixel/index.html">
@@ -880,13 +862,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SDK_md/roojoom-conversion-pixel.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="24" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="24" />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sdk/conversion_pixel/index.html">
@@ -1103,38 +1085,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SDK_md/roojoom-conversion-pixel.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="24" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="24" />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdk/install/index.html">
+    <entry file="file://$PROJECT_DIR$/sdk/roojoom_ga_plugin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-          <folding />
+        <state vertical-scroll-proportion="0.5434174">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SDK_md/roojoom-ga-plugin.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdk/roojoom_ga_plugin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5821727">
-          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.14179105">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/install/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33246073">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
           <folding />
         </state>
       </provider>

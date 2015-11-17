@@ -77,10 +77,10 @@ ga('send', 'pageview');
 <pre><code>&lt;script type="text/javascript"&gt;
 
    (function() {
-    var site_id = '&lt;site_id&gt;';
+    var rj_site_id = '&lt;site_id&gt;';
     var rjgp = document.createElement('script');
     rjgp.async = true;
-    rjgp.src = '//sdk.roojoom.com/jssdk/rj-ga-plugin-' + site_id + '.js';
+    rjgp.src = '//sdk.roojoom.com/jssdk/rj-ga-plugin-' + rj_site_id + '.js';
     var script = document.getElementsByTagName('script')[0];
     script.parentNode.insertBefore(rjgp, script);
    })();
@@ -88,7 +88,7 @@ ga('send', 'pageview');
 </code></pre>
 </li>
 <li>
-<p>Replace the <code>&lt;site_id&gt;</code> with your specific site id provided by roojoom team</p>
+<p>Replace the <code>&lt;rj_site_id&gt;</code> with your specific site id provided by roojoom team</p>
 
 <blockquote>
 <p>Contact us at <a href="support@roojoom.com">support@roojoom.com</a> if you don't have your site ID yet</p>
@@ -122,10 +122,10 @@ ga('send', 'pageview');
       ga('send', 'pageview');
 
        (function() {
-        var site_id = '&ltside_id&gt';
+        var rj_site_id = '&ltside_id&gt';
         var rjgp = document.createElement('script');
         rjgp.async = true;
-         rjgp.src = '//sdk.roojoom.com/jssdk/rj-ga-plugin-' + site_id + '.js';
+         rjgp.src = '//sdk.roojoom.com/jssdk/rj-ga-plugin-' + rj_site_id + '.js';
         var script = document.getElementsByTagName('script')[0];
         script.parentNode.insertBefore(rjgp, script);
        })();
@@ -136,7 +136,7 @@ ga('send', 'pageview');
 <li>
     In <code>ga('create', 'UA-xxxxxxxx-x', 'auto');</code> replace UA-xxxxxxx-x with your Google analytics Tracking ID
 </li>
-<li>Replace the <code>&lt;site_id&gt;</code> with your specific site id provided by roojoom team
+<li>Replace the <code>&lt;rj_site_id&gt;</code> with your specific site id provided by roojoom team
 &gt; Contact us at [support@roojoom.com](support@roojoom.com) if you don't have your site ID yet
 </li>
 </ul>
